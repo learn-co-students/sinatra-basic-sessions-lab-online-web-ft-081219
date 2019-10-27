@@ -1,1 +1,9 @@
 
+<form method="post" action="/checkout">
+  <p>
+  <label for="item"> Shopping Cart</label>
+  <input type="text" id="item" name="checkout[item]"></p>
+  <input type="submit" id="Submit" value="submit">
+
+  <%=@session%>
+</form>
